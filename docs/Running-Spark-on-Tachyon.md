@@ -38,7 +38,7 @@ Put a file X into HDFS and run the Spark shell:
     $ s.saveAsTextFile("tachyon://localhost:19998/Y")
 
 Take a look at [http://localhost:19999](http://localhost:19999). There should be an output file
-`Y` which contains the number of words in the file `X`.
+`Y` which contains the number of lines in the file `X`.
 Put a file X into HDFS and run the Spark shell:
 
 If you are invoking spark job using sbt or from other frameworks like play using sbt:
